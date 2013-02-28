@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Gold Rush</string>
+    <string name="menu_settings">Reset Game</string>
+    <string name="title_activity_main">Gold Rush</string>
+    <string name="about_text">
+		Developed and Designed by \n\nShiladitya Mandal\n(16.shiladitya@gmail.com)\n\n
+		and \n\nSaurabh Soni\n(me@saurabhsoni.in).\n\n\n
+		Uses ZXing (code.google.com/p/zxing) library for detecting QR codes.
+	</string>
+	<string name="rules">There are a set of tasks, each of which carries a certain number of gold coins.
+        The key to every task is hidden in different location in the campus. There is a QR sticker
+        in each of these places. You must search for them and scan them through the app to complete
+        the task. \nWhen you reach a vicinity of the destination, you will receive a hint giving a
+        more accurate description of the task completion point. It is upto you whether you want to 
+        use that hint. If you use the hint, you end up getting 1 gold coin lesser when you answer the
+        question.
+    </string>
+</resources>

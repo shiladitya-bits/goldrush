@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/leader_tvnick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="admin"
+        android:textSize="25dp"
+        android:textColor="#652100"
+        android:shadowColor="#FEE"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="3"
+         />
+    <TextView
+        android:id="@+id/leader_tvpoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:textSize="25dp" 
+        android:textColor="#652100"
+        android:shadowColor="#FEE"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="3"/>
+</RelativeLayout> 

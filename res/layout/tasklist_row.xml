@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:padding="10dp"
+    android:background="#00000000"
+    >
+
+    <TextView        
+        android:id="@+id/colTaskId"
+	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Task #1"
+        android:background="#00000000"
+        android:textColor="#652100"
+        android:textSize="25dp"
+        android:shadowColor="#FEE"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="3" />
+
+    <ImageView
+        android:id="@+id/imgbtnStatus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:background="#00000000"
+        android:src="@drawable/incomplete" />
+
+    <TextView
+        android:id="@+id/colPts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/colTaskId"
+        android:layout_alignBottom="@+id/colTaskId"
+        android:layout_marginLeft="78dp"
+        android:layout_toLeftOf="@+id/imgbtnStatus"
+        android:layout_marginRight="20dp"
+        android:textColor="#652100"
+        android:text="0"
+        android:textSize="25dp"
+        android:shadowColor="#FEE"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="3"
+        android:background="#00000000"
+/>
+
+</RelativeLayout> 

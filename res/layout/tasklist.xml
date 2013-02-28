@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homebg3">
+	<TextView
+	    android:id="@+id/tvtasklist"
+	    android:layout_width="fill_parent"
+	    android:layout_height="60dp"
+	    android:text="Task List"
+	    android:textColor="#FFF"
+	    android:textSize="25dp"
+	    android:padding="5dp"
+	    android:gravity="center"
+	    android:layout_gravity="center_horizontal"
+	    android:background="@drawable/roughlabel"
+	    android:shadowColor="#FEE"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="3"
+	/>
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:paddingBottom="5dp">
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginLeft="10dp"
+		    android:shadowColor="#FEE"
+		    android:shadowDx="0"
+		    android:shadowDy="0"
+		    android:shadowRadius="3"
+		    android:text="Task"
+		    android:textColor="#652100"
+		    android:textStyle="bold"
+		    android:textSize="25dp" />
+
+		<TextView
+		    android:id="@+id/textView2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginRight="10dp"
+		    android:shadowColor="#FEE"
+		    android:shadowDx="0"
+		    android:shadowDy="0"
+		    android:shadowRadius="3"
+		    android:textStyle="bold"
+		    android:text="Status"
+		    android:textColor="#652100"
+		    android:textSize="15dp" />
+
+		<TextView
+		    android:id="@+id/textView3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/textView2"
+		    android:layout_alignBottom="@+id/textView2"
+		    android:layout_toLeftOf="@+id/textView2"
+		    android:shadowDx="0"
+		    android:shadowDy="0"
+		    android:shadowRadius="3"
+		    android:text="Coins"
+		    android:textColor="#652100"
+		    android:textSize="15dp"
+		    android:textStyle="bold"
+		    android:paddingRight="10dp"/>
+	    
+	</RelativeLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:orientation="vertical" 
+	    android:background="#652100">
+
+	</LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+     />
+</LinearLayout>

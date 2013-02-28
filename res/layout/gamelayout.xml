@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+	android:background="@drawable/homebg3">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="510dp"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    <TextView
+        android:id="@+id/tvtaskid"
+        android:text="Task "
+        android:textColor="#FEE"
+	    android:shadowColor="#FEE"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:gravity="center"
+        android:shadowRadius="3"
+        android:layout_width="fill_parent"
+        android:layout_height="60sp"
+        android:padding="10dp"
+        android:background="@drawable/roughlabel"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_weight="0.9" >
+
+        <TextView
+            android:id="@+id/tvquestion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="What you are expected to do will appear here after the code calls to textview.setText() function. This can be of one line or multiple lines. Be prepared for everything! Go!Go!Go!"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#652100"
+            android:textColorHighlight="#e00"
+            android:shadowColor="#FEE"
+        	android:shadowDx="0"
+        	android:shadowDy="0"
+        	android:shadowRadius="6"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tvpoints"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Points = "
+            android:textSize="21sp"
+            android:textColor="#652100" 
+            android:shadowColor="#FEE"
+        	android:shadowDx="0"
+        	android:shadowDy="0"
+        	android:shadowRadius="6"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/statustv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Task status : "
+                android:textSize="21sp"
+                android:textColor="#652100"
+                android:shadowColor="#FEE"
+     		   	android:shadowDx="0"
+     		   	android:shadowDy="0"
+        		android:shadowRadius="6" />
+
+            <TextView
+                android:id="@+id/tvstatus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Incomplete"
+                android:textSize="21sp"
+                android:textColor="#652100" 
+                android:shadowColor="#FEE"
+        		android:shadowDx="0"
+        		android:shadowDy="0"
+        		android:shadowRadius="6"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/roughlabel"
+            android:gravity="center"
+            android:shadowColor="#FEE"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3"
+            android:text="Got the QR code?"
+            android:textSize="20sp"
+            android:textColor="#FEE" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/buttonPrev"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:layout_weight="0.33"
+                android:drawableLeft="@drawable/arleft"
+                android:drawablePadding="0dp"
+                android:background="@drawable/roughbtn"
+                android:text="Prev"
+                android:textSize="20sp"
+                android:textColor="#Fee" />
+
+            <Button
+                android:id="@+id/buttonHints"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:layout_weight="0.33"
+                android:background="@drawable/roughbtn"
+                android:text="Hints"
+                android:textSize="20sp"
+                android:textColor="#Fee" />
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:textSize="20sp"
+                android:layout_weight="0.33"
+                android:background="@drawable/roughbtn"
+                android:drawableRight="@drawable/arright"
+                android:text="Next"
+                android:textColor="#Fee" />
+        </LinearLayout>
+    </LinearLayout>
+
+	</LinearLayout>
+ </ScrollView>

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/homebg2"
+    android:orientation="vertical"
+    android:paddingTop="80dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.49" >
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/tvuser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="10sp"
+            android:shadowColor="#FEE"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3"
+            android:paddingBottom="10dp"
+            android:text="Howdy"
+            android:textColor="#652100"
+            android:textSize="25sp" />
+ 
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/playbtn"
+            android:paddingBottom="-30dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnStats"
+            android:layout_width="210dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gamestatsbtn"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnLeaders"
+            android:layout_width="210dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/leaderboardbtn"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnRules"
+            android:layout_width="210dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/howtoplaybtn"
+            android:text="" />
+    </LinearLayout>
+        
+    </ScrollView>
+
+    
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:background="@drawable/creditsbtn"
+        android:text="" />
+
+</LinearLayout>
